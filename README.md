@@ -13,18 +13,28 @@ Save the summarized data for future analysis or use.
 The dataset is a large JSON file named arxiv-metadata-oai-snapshot.json which contains metadata for research papers. Each entry includes:
 
 -- id: The unique identifier for the paper.
+
 -- submitter: The individual who submitted the paper.
+
 -- authors: List of authors who contributed to the paper.
+
 -- title: The title of the research paper.
+
 -- Abstract: A summary of the research paper.
+
 -- categories: The subject category (e.g., hep-ph, math. CO).
+
 -- doi and journal-ref: Publication information.
+
 ⚙️ Requirements
 To get started, ensure you have the following installed:
 
 -bash
+
 -Copy code
+
 -pip install transformers pandas ijson
+
 -You will also need a Hugging Face access token to authenticate the use of their models. You can create an access token from your Hugging Face account.
 
 🚀 Steps to Run the Project
